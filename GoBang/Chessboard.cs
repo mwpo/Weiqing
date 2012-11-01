@@ -1,18 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace GoBang
 {
     public partial class Chessboard : Form
     {
-        protected char[,] chessBoard = null;  //0 null, A occupied by A, B occupied by B
-        protected IChessNotify _observer = null;
+        protected char[,] chessBoard;  //0 null, A occupied by A, B occupied by B
+        protected IChessNotify _observer;
+
         public Chessboard()
         {
             InitializeComponent();
@@ -20,7 +14,7 @@ namespace GoBang
         
         public void SetBoard(char[,] board)
         {
-            this.chessBoard = board;
+            chessBoard = board;
             OnPaint(null);
         }
 
