@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoBang", "GoBang\GoBang.csproj", "{4270AD5B-CA33-415E-8A32-00E7814C33F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoBangTest", "GoBangTest\GoBangTest.csproj", "{794CA762-C540-4C3A-BC43-D217888A19F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1EF49B5-D32C-4CA8-90C3-095471F7CAA0}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleApplication2.vsmdi = ConsoleApplication2.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ConsoleApplication2.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4270AD5B-CA33-415E-8A32-00E7814C33F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4270AD5B-CA33-415E-8A32-00E7814C33F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4270AD5B-CA33-415E-8A32-00E7814C33F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4270AD5B-CA33-415E-8A32-00E7814C33F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{794CA762-C540-4C3A-BC43-D217888A19F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{794CA762-C540-4C3A-BC43-D217888A19F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{794CA762-C540-4C3A-BC43-D217888A19F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{794CA762-C540-4C3A-BC43-D217888A19F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
